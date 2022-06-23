@@ -1,0 +1,14 @@
+.footer {
+	background-color: #fdf0e9;
+	padding: 50px;
+	width: 1300px;
+}
+.footer button {
+	margin: 0 auto;
+	display: block;
+	border-radius: 3px;
+	padding: 8px 20px;
+	border: 1px solid white;
+	font-weight: bold;
+	font-size: xx-small;
+}
