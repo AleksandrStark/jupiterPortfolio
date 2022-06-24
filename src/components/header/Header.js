@@ -1,31 +1,31 @@
 import React from 'react';
-import classes from './Header.module.css';
-
 export default function Header() {
 	return (
-		<div className={classes.header}>
-			<div className={classes.header__agency}>Agency</div>
+		<div className="header">
+			<div className="header__navbar">
+				<div className="header__agency"> Agency</div>
 
-			<ul className={classes.header__nav}>
-				<li className={classes.header__nav__item}>
-					<a href="#">About</a>
-				</li>
-				<li className={classes.header__nav__item}>
-					<a href="#">Services</a>
-				</li>
-				<li className={classes.header__nav__item}>
-					<a href="#">Pricing</a>
-				</li>
-				<li className={classes.header__nav__item}>
-					<a href="#">Blog</a>
-				</li>
-			</ul>
+				<ul className="header__nav">
+					<li className="header__nav__item">
+						<a href="#">About</a>
+					</li>
+					<li className="header__nav__item">
+						<a href="#">Services</a>
+					</li>
+					<li className="header__nav__item">
+						<a href="#">Pricing</a>
+					</li>
+					<li className="header__nav__item">
+						<a href="#">Blog</a>
+					</li>
+				</ul>
 
-			<div className={classes.header__button}>
-				<button>CONTACT</button>
+				<div className="header__button">
+					<button>CONTACT</button>
+				</div>
 			</div>
 
-			<div className={classes.header__portfolio}>
+			<div className="header__portfolio">
 				<h1> Portfolio </h1>
 				<p>
 					Agency provides a full service range including technical skills,

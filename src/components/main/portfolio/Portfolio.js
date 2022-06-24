@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Toolbar from '../toolbar/Toolbar';
 import ProjectList from '../projectList/ProjectList';
-import classes from './Portfolio.module.css';
 
 class Portfolio extends Component {
 	constructor(props) {
@@ -71,14 +70,10 @@ class Portfolio extends Component {
 		}
 	};
 
-	// onShowMore=()=>{
-	// 	this.state({projects:})
-	// }
-
 	render() {
 		return (
-			<div className={classes.portfolio}>
-				<div className={classes.toolbar}>
+			<div className="portfolio">
+				<div className="toolbar">
 					<Toolbar
 						filters={this.state.filters}
 						selected={this.state.selected}
@@ -87,7 +82,7 @@ class Portfolio extends Component {
 						onShowMore={this.onShowMore}
 					/>
 				</div>
-				<div className={classes.projectList}>
+				<div className="projectList">
 					<ProjectList
 						selected={this.state.selected}
 						projects={this.state.projects}

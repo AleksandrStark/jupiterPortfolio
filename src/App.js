@@ -6,17 +6,10 @@ import Portfolio from './components/main/portfolio/Portfolio';
 
 function App() {
 	return (
-		<div className="app">
-			<div>
-				<Header />
-			</div>
-
-			<div>
-				<Portfolio />
-			</div>
-			<div>
-				<Footer />
-			</div>
+		<div className="main">
+			<Header />
+			<Portfolio />
+			<Footer />
 		</div>
 	);
 }

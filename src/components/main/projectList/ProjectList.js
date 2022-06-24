@@ -1,12 +1,11 @@
 import React from 'react';
-import classes from '../portfolio/Portfolio.module.css';
 
 const ProjectList = ({ projects }) => {
 	return (
-		<div>
+		<div className="cards-wrapper">
 			{projects &&
 				projects.map((project) => (
-					<div key={Math.random()} className={classes.items}>
+					<div key={Math.random()} className="image">
 						<img src={project.img} alt={project.category} />
 					</div>
 				))}

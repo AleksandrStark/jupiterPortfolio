@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 const Toolbar = ({ selected, filters, onSelectFilter }) => {
 	const onClickFilter = (e) => {
 		onSelectFilter(e);
 	};
 
 	return (
-		<div>
+		<div className="toolbar">
 			{filters.map((filter) => (
 				<button key={Math.random()} onClick={onClickFilter}>
 					{filter}
